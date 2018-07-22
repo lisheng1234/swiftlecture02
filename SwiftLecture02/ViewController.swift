@@ -19,7 +19,17 @@ class ViewController: UIViewController {
         let fullName = name + "Fang"
         //print(fullName)
         lbName?.text=fullName
+        let english = ["A","B","C"]
+        var ints : [Int] = [1,2,3]
+        var floats :Array<Float> = Array(repeating: 0, count: 5)
+        for index in 0..<3{
+            print("\(english[index])")
+        }
         
+        for str in english{
+            print(str)
+        }
+       
     }
 
     override func didReceiveMemoryWarning() {
