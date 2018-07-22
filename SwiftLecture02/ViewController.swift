@@ -9,13 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var lbName:UILabel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello Swift!")
         let name : String = "liddle"
         let fullName = name + "Fang"
-        print(fullName)
+        //print(fullName)
+        lbName?.text=fullName
+        
     }
 
     override func didReceiveMemoryWarning() {
