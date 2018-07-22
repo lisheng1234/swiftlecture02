@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Hello Swift!")
-        
+        let name : String = "liddle"
+        let fullName = name + "Fang"
+        print(fullName)
     }
 
     override func didReceiveMemoryWarning() {
